@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Mehtab Khan - Software Developer</title>
+
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <meta name="description" content="Software Developer Portfolio of Md Mehtab Khan - specializing in full-stack web applications using JavaScript, Python, SQL, React, and more." />
+    <meta name="keywords" content="Md Mehtab Khan, Software Developer, Full Stack Developer, Python, SQL, JavaScript, React, Node.js, Portfolio" />
+    <meta name="author" content="Md Mehtab Khan" />
+
+    <link rel="shortcut icon" href="assest/favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+<nav class="bg-[#0f172a] text-white">
+    <div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
+        <button class="lg:hidden text-white focus:outline-none cursor-pointer" type="button" onclick="toggleMobileMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="hidden lg:flex flex-grow justify-center space-x-8">
+            <a class="hover:text-cyan-400 transition" href="#home">Home</a>
+            <a class="hover:text-cyan-400 transition" href="#about">About</a>
+            <a class="hover:text-cyan-400 transition" href="#skills">Skills</a>
+            <a class="hover:text-cyan-400 transition" href="#projects">Projects</a>
+            <a class="hover:text-cyan-400 transition" href="#contact">Contact</a>
+        </div>
+    </div>
+    <div id="mobileMenu" class="mobile-menu fixed top-0 left-0 w-64 bg-gradient-to-r from-[#0f172a] to-[#1e293b] text-white h-full lg:hidden">
+        <div class="flex justify-end p-4">
+            <button class="text-white text-2xl" onclick="toggleMobileMenu()">
+                <i class="fa-solid fa-times"></i>
+            </button>
+        </div>
+        <ul class="flex flex-col items-center space-y-4 mt-8">
+            <li><a class="hover:text-cyan-400 transition" href="#home">Home</a></li>
+            <li><a class="hover:text-cyan-400 transition" href="#about">About</a></li>
+            <li><a class="hover:text-cyan-400 transition" href="#skills">Skills</a></li>
+            <li><a class="hover:text-cyan-400 transition" href="#projects">Projects</a></li>
+            <li><a class="hover:text-cyan-400 transition" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Home -->
+<section id="home" class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-center p-8">
+    <img src="assest/mehtab.png" alt="profile pic" class="rounded-full w-40 h-40 border-4 border-cyan-500 shadow-lg">
+    <h1 class="text-4xl font-bold text-white mt-4">Hi, I'm Md Mehtab Khan</h1>
+    <p class="mt-4 text-2xl text-gray-300">An aspiring Software Developer building full-stack applications and scalable solutions.</p>
+    <div class="mt-6 flex flex-wrap justify-center gap-4">
+        <a href="https://www.linkedin.com/in/mdmehtab/" target="_blank" class="bg-white text-cyan-600 font-bold py-2 px-4 rounded shadow hover:bg-cyan-100 transition">LinkedIn</a>
+        <a href="https://github.com/mdmehtabkhan" target="_blank" class="bg-white text-cyan-600 font-bold py-2 px-4 rounded shadow hover:bg-cyan-100 transition">GitHub</a>
+        <a href="#contact" class="bg-white text-cyan-600 font-bold py-2 px-4 rounded shadow hover:bg-cyan-100 transition">Work with Me</a>
+        <a href="assets/Resume.pdf" target="_blank" download class="bg-white text-cyan-600 font-bold py-2 px-4 rounded shadow hover:bg-cyan-100 transition">Download CV</a>
+    </div>
+</section>
+
+
+    <!-- About -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <p class="text-gray-700 text-lg">
+                I’m a passionate Software Developer with knowledge of both frontend and backend development. I enjoy building web apps using JavaScript, Python, SQL, and React. I’ve worked on projects using databases like MySQL and PostgreSQL, and I’m always eager to learn new technologies.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-800">Skills</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                <div class="bg-[#e34c26] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">HTML</div>
+                <div class="bg-[#264de4] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">CSS</div>
+                <div class="bg-[#f0db4f] text-black font-semibold py-3 px-4 text-center rounded-lg shadow">JavaScript</div>
+                <div class="bg-[#61dafb] text-black font-semibold py-3 px-4 text-center rounded-lg shadow">React.js</div>
+                <div class="bg-[#38bdf8] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">Tailwind CSS</div>
+                <div class="bg-[#f1502f] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">Git & GitHub</div>
+                <div class="bg-[#34d399] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">Responsive Design</div>
+                <div class="bg-[#6366f1] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">SQL</div>
+                <div class="bg-[#10b981] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">REST API</div>
+                <div class="bg-[#4ade80] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">Fetch API</div>
+                <div class="bg-[#3776ab] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">Python</div>
+                <div class="bg-[#00758F] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">MySQL</div>
+                <div class="bg-[#336791] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">PostgreSQL</div>
+                <div class="bg-[#47A248] text-white font-semibold py-3 px-4 text-center rounded-lg shadow">MongoDB</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- Crime Data Analysis Project -->
+      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-semibold text-[#4b5563] mb-3">Crime Data Analysis</h3>
+        <p class="text-gray-700 mb-3 text-sm">
+          A machine learning-based system to detect crime patterns using Python, Decision Tree, and Naive Bayes. Visualized hotspots and trends using real-world crime data.
+        </p>
+        <p class="text-sm text-purple-600 font-medium mb-4">Skills: Python, ML, Data Visualization</p>
+        <a href="https://github.com/MDMEHTABKHAN/crime-data-analysis-ML" target="_blank" class="inline-block bg-purple-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+          View on GitHub
+        </a>
+      </div>
+
+      <!-- Secure Cloud Auditing Project -->
+      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-semibold text-[#4b5563] mb-3">Secure Cloud Auditing</h3>
+        <p class="text-gray-700 mb-3 text-sm">
+          A Java-based cloud auditing platform that ensures data integrity and privacy using secure group access and MySQL for scalable cloud sharing.
+        </p>
+        <p class="text-sm text-purple-600 font-medium mb-4">Skills: Java, MySQL, Cloud Security</p>
+      </div>
+
+      <!-- Kanban Job Role Board -->
+      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-semibold text-[#4b5563] mb-3">Kanban Job Role Board</h3>
+        <p class="text-gray-700 mb-3 text-sm">
+          An interactive Kanban board for organizing tech job roles using drag-and-drop. Features role-based cards, skill toggling, colorful UI, and responsive design with Tailwind CSS and JavaScript.
+        </p>
+        <p class="text-sm text-purple-600 font-medium mb-4">Skills: HTML, CSS, Tailwind CSS, JavaScript</p>
+        <div class="flex space-x-4">
+          <a href="https://github.com/MDMEHTABKHAN/career-tracker-kanban" target="_blank" class="inline-block bg-purple-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+            View on GitHub
+          </a>
+          <a href="https://mdmehtabkhan.github.io/career-tracker-kanban/" target="_blank" class="inline-block bg-indigo-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-indigo-700 transition duration-300">
+            Live Preview
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Tic Tac Toe Game -->
+<div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+  <h3 class="text-xl font-semibold text-[#4b5563] mb-3">Tic Tac Toe Game</h3>
+  <p class="text-gray-700 mb-3 text-sm">
+    A responsive web-based Tic Tac Toe game built using HTML, CSS, and JavaScript. Features include real-time win detection, reset & new game buttons, and a mobile-friendly layout. Designed for 2 players to enjoy a smooth gaming experience in the browser.
+  </p>
+  <p class="text-sm text-purple-600 font-medium mb-4">Skills: HTML, CSS, JavaScript, Responsive Design</p>
+  <div class="flex space-x-4">
+    <a href="https://github.com/MDMEHTABKHAN/X-and-O-Game" target="_blank" class="inline-block bg-purple-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+      View on GitHub
+    </a>
+    <a href="https://mdmehtabkhan.github.io/X-and-O-Game/" target="_blank" class="inline-block bg-indigo-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-indigo-700 transition duration-300">
+      Live Preview
+    </a>
+  </div>
+</div>
+
+<!-- QR Code Component Project -->
+<div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+  <h3 class="text-xl font-semibold text-[#4b5563] mb-3">QR Code Component</h3>
+  <p class="text-gray-700 mb-3 text-sm">
+    A responsive QR code component designed using plain HTML, CSS (via JS), and JavaScript. The project demonstrates styling without a stylesheet and encourages frontend skill development.
+  </p>
+  <p class="text-sm text-purple-600 font-medium mb-4">Skills: HTML, CSS-in-JS, JavaScript</p>
+  <div class="flex space-x-4">
+    <a href="https://github.com/MDMEHTABKHAN/QR-Code-Component" target="_blank" class="inline-block bg-purple-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+      View on GitHub
+    </a>
+    <a href="https://mdmehtabkhan.github.io/QR-Code-Component/" target="_blank" class="inline-block bg-indigo-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-indigo-700 transition duration-300">
+      Live Preview
+    </a>
+  </div>
+</div>
+
+
+<!-- Weather App Project -->
+<div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+  <h3 class="text-xl font-semibold text-[#4b5563] mb-3">Weather Forecast App</h3>
+  <p class="text-gray-700 mb-3 text-sm">
+    A real-time weather app built with OpenWeatherMap API, showing temperature, humidity, and wind speed with dynamic icons and responsive design.
+  </p>
+  <p class="text-sm text-purple-600 font-medium mb-4">Skills: HTML, CSS, JavaScript, REST API</p>
+  <div class="flex space-x-4">
+    <a href="https://github.com/MDMEHTABKHAN/Responsive-Weather-App" target="_blank" class="inline-block bg-purple-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+      View on GitHub
+    </a>
+    <a href="https://mdmehtabkhan.github.io/Responsive-Weather-App/" target="_blank" class="inline-block bg-indigo-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-indigo-700 transition duration-300">
+      Live Preview
+    </a>
+  </div>
+</div>
+
+
+<!-- Random Number Generator -->
+<div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+  <h3 class="text-xl font-semibold text-[#4b5563] mb-3">Random Number Generator</h3>
+  <p class="text-gray-700 mb-3 text-sm">
+    A simple number generator that simulates rolling six dice. Each click creates random numbers from 1 to 6 using JavaScript.
+  </p>
+  <p class="text-sm text-purple-600 font-medium mb-4">Skills: HTML, CSS, JavaScript</p>
+  <div class="flex space-x-4">
+    <a href="https://github.com/MDMEHTABKHAN/random-number-generator" target="_blank" class="inline-block bg-purple-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+      GitHub Repo
+    </a>
+    <a href="https://mdmehtabkhan.github.io/random-number-generator/" target="_blank" class="inline-block bg-indigo-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-indigo-700 transition duration-300">
+      Live Preview
+    </a>
+  </div>
+</div>
+
+<!-- Advanced Calculator Project -->
+<div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+  <h3 class="text-xl font-semibold text-[#4b5563] mb-3">Calculator</h3>
+  <p class="text-gray-700 mb-3 text-sm">
+    A sleek, advanced calculator with a dark UI supporting basic and advanced operations like %, (), and delete, built using HTML, CSS, and JavaScript.
+  </p>
+  <p class="text-sm text-purple-600 font-medium mb-4">Skills: HTML, CSS, JavaScript</p>
+  <div class="flex space-x-4">
+    <a href="https://github.com/MDMEHTABKHAN/CalcPro" target="_blank" class="inline-block bg-purple-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+      GitHub Repo
+    </a>
+    <a href="https://mdmehtabkhan.github.io/CalcPro/" target="_blank" class="inline-block bg-indigo-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-indigo-700 transition duration-300">
+      Live Preview
+    </a>
+  </div>
+</div>
+
+
+<!-- Expense Tracker Project -->
+<div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+  <h3 class="text-xl font-semibold text-[#4b5563] mb-3">Expense Tracker</h3>
+  <p class="text-gray-700 mb-3 text-sm">
+    A simple web application to track income and expenses. Users can input financial transactions and view real-time balance updates. Data is stored in browser local storage for persistence.
+  </p>
+  <p class="text-sm text-purple-600 font-medium mb-4">Skills: HTML, CSS, JavaScript</p>
+  <div class="flex space-x-4">
+    <a href="https://github.com/MDMEHTABKHAN/Expense-Tracker-Project" target="_blank" class="inline-block bg-purple-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+      GitHub Repo
+    </a>
+    <a href="https://mdmehtabkhan.github.io/Expense-Tracker-Project/" target="_blank" class="inline-block bg-indigo-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-indigo-700 transition duration-300">
+      Live Preview
+    </a>
+  </div>
+</div>
+
+<!-- Food Munch Project -->
+<div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+  <h3 class="text-xl font-semibold text-[#4b5563] mb-3">Food Munch Website</h3>
+  <p class="text-gray-700 mb-3 text-sm">
+    A responsive restaurant landing page built using Bootstrap 4 and custom CSS. It includes interactive sections like menu, food services, delivery options, gift modal, and social media follow links.
+  </p>
+  <p class="text-sm text-purple-600 font-medium mb-4">Skills: HTML, Bootstrap, CSS, Font Awesome</p>
+  <div class="flex space-x-4">
+    <a href="https://github.com/MDMEHTABKHAN/Food-_Munch" target="_blank" class="inline-block bg-purple-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+      GitHub Repo
+    </a>
+    <a href="https://mdmehtabkhan.github.io/Food-_Munch/"  target="_blank" class="inline-block bg-indigo-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-indigo-700 transition duration-300">
+      Live Preview
+    </a>
+  </div>
+</div>
+      </div>
+  </div>
+</section>
+</main>
+
+    <!-- Contact -->
+    <section id="contact" class="py-10 bg-gray-100">
+        <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-6">Contact</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+                <input type="hidden" name="access_key" value="97462f41-d725-4955-bbad-aef2d373bdce">
+                <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 border rounded">
+                <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 border rounded">
+                <input type="text" name="subject" placeholder="Subject" required class="w-full p-3 border rounded">
+                <textarea name="message" placeholder="Your Message" required class="w-full p-3 border rounded"></textarea>
+                <button type="submit" class="bg-indigo-700 text-white px-6 py-2 rounded hover:bg-indigo-800">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-800 text-white text-center py-4">
+        <p>&copy; 2025 Md Mehtab Khan. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMobileMenu() {
+            document.getElementById('mobileMenu').classList.toggle('active');
+        }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .mobile-menu {
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(-100%);
+        }
+
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+    </style>
+</body>
+</html>
